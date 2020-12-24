@@ -75,6 +75,10 @@
   --text-link: var(--link-colour);
 }
 
+.theme-dark .message.mentioned .message-text {
+  background: rgba(0, 0, 0, 1) !important;
+}
+
 #app-mount:before {
   content: "";
   background: var(--background-image);
